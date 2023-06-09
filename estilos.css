@@ -6,12 +6,12 @@
 
 .contenedor{
     display: flex;
-    margin: 30px;
     padding: 30px;
-    border: 1px solid red;
-    height: 84vh;
+    height: 92vh;
+    gap: 10px;
 }
 
+/* Side perfil */
 aside{
     border: 1px solid blue;
     display: flex;
@@ -36,4 +36,18 @@ aside{
     padding: 10px;
     margin: 5px 10px;
     text-align: center;
+}
+
+.recetas{
+    border: 1px solid violet;
+    width: 66%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.comida{
+    width: 30%;
+    border-radius: 50%;
 }
