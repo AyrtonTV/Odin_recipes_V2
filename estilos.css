@@ -4,6 +4,13 @@
     box-sizing: content-box;
 }
 
+body{
+    background-image: url(/img/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+}
+
 .contenedor{
     display: flex;
     padding: 30px;
@@ -13,15 +20,17 @@
 
 /* Side perfil */
 aside{
-    border: 1px solid blue;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 33%;
+    background: rgba(246, 133, 214, 0.436);
+    border-radius: 9px;
+    box-shadow: 2px 2px 15px rgb(78, 41, 67);
 }
 
 .profile{
-    width: 33%;
+    width: 30%;
     border-radius: 50%;
     margin: 30px 0 15px;
 }
@@ -39,7 +48,6 @@ aside{
 }
 
 .recetas{
-    border: 1px solid violet;
     width: 66%;
     display: flex;
     justify-content: center;
@@ -48,6 +56,12 @@ aside{
 }
 
 .comida{
-    width: 30%;
+    width: 300px;
     border-radius: 50%;
 }
+
+.comida:hover{
+    cursor: pointer;
+    opacity: .75;
+}
+
