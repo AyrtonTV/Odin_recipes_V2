@@ -5,10 +5,7 @@
 }
 
 body{
-    background-image: url(/img/fondo.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0%;
+    background-image: linear-gradient(to top right, rgb(129, 4, 253), rgb(255, 0, 187))
 }
 
 .contenedor{
@@ -24,7 +21,7 @@ aside{
     flex-direction: column;
     align-items: center;
     width: 33%;
-    background: rgba(246, 133, 214, 0.436);
+    background-image: linear-gradient(to top, rgb(129, 4, 253), rgb(255, 0, 187));
     border-radius: 9px;
     box-shadow: 2px 2px 15px rgb(78, 41, 67);
 }
@@ -45,6 +42,7 @@ aside{
     padding: 10px;
     margin: 5px 10px;
     text-align: center;
+    font-size: 18px;
 }
 
 .recetas{
@@ -58,6 +56,7 @@ aside{
 .comida{
     width: 300px;
     border-radius: 50%;
+    box-shadow: 1px 1px 8px black;
 }
 
 .comida:hover{
