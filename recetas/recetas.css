@@ -38,6 +38,10 @@ aside{
     margin-bottom: 8px;
 }
 
+.dos{
+    margin-bottom: 3px;
+}
+
 .caracteristicas, .ingrelist{
     margin: 10px 0 25px;
 }
@@ -82,4 +86,8 @@ ol > li{
 .oni{
     justify-content: center;
     align-items: center;
+}
+
+.tres > li{
+    font-size: 18px;
 }
